@@ -65,13 +65,13 @@ Trainiert und verglichen werden:
 
 | Modell | Accuracy |
 |---|---|
-| KNN | ~70 % |
-| SVM (tuned) | ~92 % |
-| Random Forest | ~88 % |
-| Gradient Boosting | ~85 % |
-| **Ensemble (opt.)** | **~93–94 %** |
+| KNN | 65,5% |
+| **SVM (tuned)** | **74 %** |
+| Random Forest | 68,5 % |
+| Gradient Boosting | 71,5 % |
+| Ensemble (opt)  | 73,5% |
 
-Zum Vergleich: Baseline V1 ~58 %, V2 Best ~93,5 %.
+Zum Vergleich: Baseline V1 ~58 %, V2 Best ~93,5 %. (V2 Falsche Ergebnisse wegen Data Leakage)
 
 ---
 
@@ -149,7 +149,7 @@ musikgenre-klassifikation/
 
 ### V2
 - Ensemble aus KNN, SVM, RF, GB
-- Augmentation, aber noch nach dem Split (Data Leakage möglich)
+- Augmentation, aber noch nach dem Split (Data Leakage)
 
 ### V1
 - Einfaches KNN-Modell als Baseline (~58 % Accuracy)
