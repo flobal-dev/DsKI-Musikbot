@@ -154,8 +154,3 @@ musikgenre-klassifikation/
 ### V1
 - Einfaches KNN-Modell als Baseline (~58 % Accuracy)
 
----
-
-## Lizenz
-
-Dieses Projekt steht unter der [MIT License](LICENSE).
