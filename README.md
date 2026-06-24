@@ -1,5 +1,5 @@
-# DsKI-Musikbot-
-Datensatz zum download gibt es hier: https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
+# DsKI-Musikbot
+Datensatz zum download gibt es hier: https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification - Projekt zu finden auf master
 # 🎵 Musikgenre-Klassifikation
 
 Ein Machine-Learning-Projekt zur automatischen Klassifikation von Musikgenres auf Basis von Audiofeatures. Entwickelt in drei iterativen Versionen – diese Version (V3) erreicht eine deutlich verbesserte Genauigkeit gegenüber der Baseline durch sauberes Daten-Handling und ein optimiertes Ensemble-Modell.
